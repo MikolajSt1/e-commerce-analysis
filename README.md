@@ -17,7 +17,7 @@ The first stage focuses on preparing a solid foundation for further analysis.
 * **Business Insights:** Properly filtering out negative data (cancellations) prevents distorted revenue figures, allowing for a more accurate assessment of business profitability. The resulting `data_frame.pkl` serves as a trusted single source of truth for the subsequent notebooks.
 
 >  ** Revenue Distribution by Country **
-> ![Order Number Per Country](images/order_number_per_country.png)
+> ![Order Number Per Country](Ecommerce_Analysis_project/images/order_number_per_country.png)
 
 ---
 
@@ -30,6 +30,7 @@ In this notebook, we take a closer look at order values and the structure of the
 
 > 📊 **[Chart Placeholder: Pie Chart - "Revenue Share by Customer Order Count"]**
 > *(This chart perfectly highlights the Pareto principle, showing which loyalty tier delivers the most cash to the business)*
+> ![Revenue share by customer](Ecommerce_Analysis_project/images/Revenue_Share_by_Customer_Order_Count.png)
 
 ---
 
@@ -41,7 +42,7 @@ This notebook examines customer behavior over time, with a specific focus on the
 * **Business Insights:** The analysis reveals distinct seasonality and significant revenue fluctuations. The highest revenues occur in the autumn months, with a massive peak in November right before the holiday season. This knowledge is critical for optimizing inventory levels and allocating marketing budgets during the most lucrative times of the year.
 
 > 📊**[Chart Placeholder: Barplot - "Percentage Deviation of Revenue from the Mean in 2011"]**
-> *(A highly readable chart utilizing green for positive deviation and red for negative deviation, showing exactly which months overperform or underperform)*
+>  ![Deviation from mean](Ecommerce_Analysis_project/images/Deviation_from_mean.png)
 
 ---
 
@@ -52,8 +53,8 @@ A crucial stage to evaluate how long a customer stays with the company and the v
 * **Scope of work:** Assigned customers to cohorts based on their first transaction month. We calculated "Tenure" (the customer's lifespan from their first to their last purchase, expressed in days) and evaluated their total revenue.
 * **Business Insights:** Observing Customer Lifetime Value (CLV) in relation to Tenure provides invaluable knowledge. Customers with a longer tenure tend to generate significantly more revenue. This proves that building long-term relationships with existing customers is highly profitable compared to solely focusing on acquiring new ones.
 
->  **[Chart Placeholder: Scatterplot - "Customer Lifetime Value vs. Tenure"]**
-> *(A visualization showing the correlation between a customer's lifespan in days and their total generated revenue)*
+>  **New and Returning customers in Revenue**
+>  ![Customer type ](Ecommerce_Analysis_project/images/Customer_type.png)
 
 ---
 
@@ -68,10 +69,11 @@ The culmination of the project is the advanced RFM (Recency, Frequency, Monetary
 
 >  **[Chart Placeholder: Pie Chart - "Customer Segmentation Share"]**
 > *(A Pie Chart showing what percentage of the customer base falls into each profile bucket, serving as a fantastic analytical summary for stakeholders)*
+> ![Customer segmentation share](Ecommerce_Analysis_project/images/Customer_Segmentation_Share.png)
 
 ---
 
 ## Summary & Recommendations
 The conducted analysis provides a clear picture of the business structure. The operational strategy should currently focus on maximizing profits from the *"The best"* and *"Loyal"* groups, improving the retention rate of one-time buyers, and preemptively building up inventory for the peak Q4 months.
 
-*Project written in Python (Pandas, Matplotlib, Seaborn). Ready to be utilized for data-driven business support.*
+*Built as a portfolio project to demonstrate hands-on experience with Python data analysis and business problem-solving. It serves as a showcase of the technical and analytical foundation I am ready to bring to a Data Analyst Intern role*
