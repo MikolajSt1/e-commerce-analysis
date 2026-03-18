@@ -17,7 +17,7 @@ The first stage focuses on preparing a solid foundation for further analysis.
 * **Business Insights:** Properly filtering out negative data (cancellations) prevents distorted revenue figures, allowing for a more accurate assessment of business profitability. The resulting `data_frame.pkl` serves as a trusted single source of truth for the subsequent notebooks.
 
 >  ** Revenue Distribution by Country **
-> ![Order Number Per Country](order_number_per_country.png)
+> ![Order Number Per Country](images/order_number_per_country.png)
 
 ---
 
