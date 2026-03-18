@@ -16,8 +16,8 @@ The first stage focuses on preparing a solid foundation for further analysis.
 * **Scope of work:** Loaded the raw data, evaluated its quality, and handled missing values. A new `Revenue` column was created by multiplying Quantity by UnitPrice, strictly filtering out cancelled or negative transactions. 
 * **Business Insights:** Properly filtering out negative data (cancellations) prevents distorted revenue figures, allowing for a more accurate assessment of business profitability. The resulting `data_frame.pkl` serves as a trusted single source of truth for the subsequent notebooks.
 
->  **[Chart Placeholder: Order or Revenue Distribution by Country / Basic EDA Stats]**
-> *(Recommended: Insert a chart illustrating the top 10 most frequently purchased products or the top revenue-generating countries identified during the EDA stage)*
+>  ** Revenue Distribution by Country **
+> ![Order Number Per Country](order_number_per_country.png)
 
 ---
 
